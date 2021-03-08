@@ -1,0 +1,7 @@
+{
+  "name": "Vent2U-G6",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
