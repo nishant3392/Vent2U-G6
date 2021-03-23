@@ -1,5 +1,5 @@
 {
-  "name": "Vent2U-G6",
+  "name": "vent2u",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -26,13 +26,13 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1101.4",
-    "@angular/cli": "~11.1.4",
+    "@angular-devkit/build-angular": "~0.1102.4",
+    "@angular/cli": "~11.2.4",
     "@angular/compiler": "~11.2.0",
     "@angular/compiler-cli": "~11.2.0",
     "@angular/language-service": "~11.2.0",
     "@capacitor/cli": "2.4.7",
-    "@ionic/angular-toolkit": "^3.1.0",
+    "@ionic/angular-toolkit": "^3.1.1",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
