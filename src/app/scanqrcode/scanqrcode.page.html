@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Vent2U</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-icon name="close-circle" style="zoom:2.5" color="danger" routerLink="/landing"></ion-icon>
+  <ion-card>
+    <ion-item>
+      <ion-input placeholder="Enter Code" [(ngModel)]="code" type="text"></ion-input>
+    </ion-item>
+  </ion-card>
+  <section>
+      <ion-button color="secondary" shape="round" routerLink="/folder/Inbox">Submit</ion-button>
+  </section>
+</ion-content>
+
