@@ -23,7 +23,11 @@ const routes: Routes = [
       import('./scanqrcode/scanqrcode.module').then(
         (m) => m.ScanqrcodePageModule
       ),
+  },  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
+
 ];
 
 @NgModule({
