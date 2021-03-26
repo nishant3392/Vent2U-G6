@@ -29,7 +29,11 @@ const routes: Routes = [
     path: 'update',
     loadChildren: () =>
       import('./update/update.module').then((m) => m.UpdatePageModule),
+  },  {
+    path: 'feedback',
+    loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
   },
+
 ];
 
 @NgModule({
