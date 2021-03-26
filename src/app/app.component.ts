@@ -24,6 +24,12 @@ export class AppComponent {
       url: '/feedback',
       icon: 'chatbubble',
     },
+    {
+      title: 'Check Out',
+      url: '/landing',
+      icon: 'exit',
+      component: 'button',
+    },
   ];
 
   constructor(private platform: Platform, private router: Router) {
