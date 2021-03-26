@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">Vent2U</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h2>Welcome to Room1!</h2>
+  <ion-card>
+    <ion-col col-auto>
+       <div>Update</div>
+     </ion-col>
+    <ion-item>
+      <ion-grid> 
+    <ion-row>    
+        <img src="/assets/climate.png">
+        <h3>Temperature</h3>
+  
+    </ion-row>
+    <ion-row>      
+      <ion-range min="-3" max="3" snaps="true" name="Temperature">
+        <p slot="start" >Freeze</p>
+        <p slot="end" >Burn</p>
+      </ion-range>
+    </ion-row>
+  </ion-grid>
+    </ion-item>
+
+    <ion-item>
+      <ion-grid>
+      <ion-row>
+          <img src="/assets/humidity.png">
+          <h3>Humidity</h3>
+
+      </ion-row>
+      <ion-row>
+        <ion-range min="-2" max="2" snaps="true" name="Humidity">
+          <p slot="start" >Dry</p>
+          <p slot="end" >Moist</p>
+        </ion-range>
+      </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item>
+      <ion-grid>
+      <ion-row>
+          <img src="/assets/air2.png">
+          <h3>Air Quality</h3>
+
+      </ion-row>
+      <ion-row>
+        <ion-button size="default" color="secondary" shape="round" >
+          <img src="/assets/refresh.png">Refresh</ion-button>
+      </ion-row>
+    </ion-grid>
+
+    </ion-item>
+
+</ion-card>
+<ion-item>
+  <ion-button size="large" color="primary" shape="round" routerLink="/home">Update</ion-button>
+</ion-item>
+</ion-content>
