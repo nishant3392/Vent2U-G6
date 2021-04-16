@@ -24,3 +24,11 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.my-custom-class .action-sheet-group {
+	position: relative;
+	bottom: 40%;
+	height: 25%;
+	width: 85%;
+	left: 5%;
+}

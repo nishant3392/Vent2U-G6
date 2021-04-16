@@ -29,11 +29,17 @@ const routes: Routes = [
     path: 'update',
     loadChildren: () =>
       import('./update/update.module').then((m) => m.UpdatePageModule),
-  },  {
-    path: 'feedback',
-    loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
   },
-
+  {
+    path: 'feedback',
+    loadChildren: () =>
+      import('./feedback/feedback.module').then((m) => m.FeedbackPageModule),
+  },
+  {
+    path: 'signup',
+    loadChildren: () =>
+      import('./signup/signup.module').then((m) => m.SignupPageModule),
+  },
 ];
 
 @NgModule({

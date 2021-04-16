@@ -9,12 +9,7 @@ import { UpdatePageRoutingModule } from './update-routing.module';
 import { UpdatePage } from './update.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    UpdatePageRoutingModule
-  ],
-  declarations: [UpdatePage]
+  imports: [CommonModule, FormsModule, IonicModule, UpdatePageRoutingModule],
+  declarations: [UpdatePage],
 })
 export class UpdatePageModule {}
