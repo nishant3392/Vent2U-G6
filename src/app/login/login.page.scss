@@ -1,4 +1,4 @@
-.signup-section {
+.login-section {
 	height: 100%;
 	width: 100%;
 	max-width: 500px;
@@ -32,7 +32,7 @@
 		}
 	}
 
-	.signup-form {
+	.login-form {
 		.form-input {
 			position: relative;
 			margin-bottom: 10px;
@@ -64,7 +64,7 @@
 
 	.action-button {
 		text-align: center;
-		.signup-button {
+		.login-button {
 			--background: #f9b801;
 			width: 100%;
 			font-weight: bold;

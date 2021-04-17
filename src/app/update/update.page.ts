@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActionSheetController, ModalController } from '@ionic/angular';
 import { HomePage } from '../home/home.page';
+import { LoginPage } from '../login/login.page';
 import { SignupPage } from '../signup/signup.page';
 
 @Component({
@@ -43,7 +44,7 @@ export class UpdatePage implements OnInit {
 
   async presentLogIn() {
     const modal = await this.modalCtrl.create({
-      component: HomePage,
+      component: LoginPage,
       componentProps: this.tour,
     });
     modal.present();
