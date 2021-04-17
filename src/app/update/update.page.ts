@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActionSheetController, ModalController } from '@ionic/angular';
-import { HomePage } from '../home/home.page';
 import { LoginPage } from '../login/login.page';
 import { SignupPage } from '../signup/signup.page';
 
