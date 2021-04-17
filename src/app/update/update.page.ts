@@ -31,7 +31,7 @@ export class UpdatePage implements OnInit {
         },
         {
           text: 'SignUp',
-          icon: 'log-out-outline',
+          icon: 'create-outline',
           handler: () => {
             this.presentSignUp();
           },
