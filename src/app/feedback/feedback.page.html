@@ -8,15 +8,33 @@
 </ion-header>
 
 <ion-content>
-<ion-card>
-  <ion-item>
-        <ion-label>Name</ion-label>
-        <ion-input type="text"  name="title"></ion-input>
-      </ion-item>
-      <ion-item>
-        <ion-label>Feedback</ion-label>
-        <ion-textarea ></ion-textarea>
-      </ion-item>
-      <ion-button size="large" color="primary" shape="round" routerLink="/home">Submit</ion-button>
-</ion-card>
+
+  <div class="feedback-section ion-padding">
+   <div class="heading ion-padding">
+            <h1>Welcome to Vent2U</h1>
+            <p>Please give your feedback about the application</p>
+        </div>
+        <div class="feedback-form ion-padding">
+            <div class="form-input">
+                <ion-icon name="person-outline" size="large"></ion-icon>
+                <ion-item>
+                    <ion-label position="floating">Name</ion-label>
+                    <ion-input type="name"></ion-input>
+                </ion-item>
+            </div>
+            <div class="form-input">
+                <ion-icon name="reader-outline" size="large"></ion-icon>
+                <ion-item>
+                    <ion-label position="floating">Description</ion-label>
+                    <ion-input type="description"></ion-input>
+                </ion-item>
+            </div>
+        </div>
+        <div class="action-button ion-padding">
+            <ion-button size="large" class="feedback-button" (click)="submit()">Submit</ion-button>
+            
+        </div>
+    
+</div>
+
 </ion-content>
