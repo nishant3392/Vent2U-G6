@@ -33,6 +33,10 @@ const routes: Routes = [
     path: 'feedback',
     loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
   },
+  {
+    path: 'preferences',
+    loadChildren: () => import('./preferences/preferences.module').then( m => m.PreferencesPageModule)
+  },
 
 ];
 

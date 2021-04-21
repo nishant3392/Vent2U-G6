@@ -17,12 +17,17 @@ export class AppComponent {
     {
       title: 'Update',
       url: '/update',
-      icon: 'reload',
+      icon: 'sync',
     },
     {
       title: 'Feedback',
       url: '/feedback',
       icon: 'chatbubble',
+    },
+    {
+      title: 'Preferences',
+      url: '/preferences',
+      icon: 'cog',
     },
     {
       title: 'Check Out',
