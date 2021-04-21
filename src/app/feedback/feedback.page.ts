@@ -9,4 +9,8 @@ export class FeedbackPage implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  submit() {
+    console.log('test');
+  }
 }
