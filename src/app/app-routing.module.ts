@@ -37,6 +37,10 @@ const routes: Routes = [
     path: 'preferences',
     loadChildren: () => import('./preferences/preferences.module').then( m => m.PreferencesPageModule)
   },
+  {
+    path: 'review',
+    loadChildren: () => import('./review/review.module').then( m => m.ReviewPageModule)
+  },
 
 ];
 

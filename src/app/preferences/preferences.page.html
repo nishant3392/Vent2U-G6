@@ -7,6 +7,22 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="ion-padding">
+  <ion-list>
+      <ion-item *ngFor="let preference of preferences">
+        <ion-col>
+        <ion-card>
+          <ion-item>
+            <ion-button color="success" fill="outline" slot="start" routerLink="/update"><ion-icon name="pencil-outline"></ion-icon>Edit</ion-button>
+            <ion-label>
+              <h2 class="ion-text-wrap">{{preference.pname}}</h2>
+              <p>Temperature: {{preference.temperature}}</p>
+              <p>Humidity: {{preference.humidity}}</p>
+            </ion-label>
+            <ion-button  fill="clear" slot="end"><ion-icon name="trash-outline"></ion-icon></ion-button>
+          </ion-item>
+        </ion-card>
+      </ion-col>
+      </ion-item>
+  </ion-list>
 </ion-content>

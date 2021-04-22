@@ -30,6 +30,11 @@ export class AppComponent {
       icon: 'cog',
     },
     {
+      title: 'Reviews',
+      url: '/review',
+      icon: 'star',
+    },
+    {
       title: 'Check Out',
       url: '/landing',
       icon: 'exit',
